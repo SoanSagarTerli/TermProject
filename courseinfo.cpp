@@ -4,7 +4,6 @@ using namespace std;
 
 CourseInfo::CourseInfo(int courseId, float marks) : courseId(courseId), marks(marks) {
 }
-
 int CourseInfo::getCourseId() const {
     return courseId;
 }
